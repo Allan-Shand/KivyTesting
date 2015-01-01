@@ -11,7 +11,8 @@ class HelloWorld(App):
          f = FloatLayout()
          s = Scatter()
          l = Label(text="Hello World!",
-              font_size=150)
+				   font_size=50,
+                   pos=(200,200))
               
          f.add_widget(s)
          s.add_widget(l)
